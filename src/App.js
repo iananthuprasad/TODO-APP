@@ -13,9 +13,7 @@ const App = () => {
   };
 
   const itemDelete = (index) => {
-    {
-      /*theezhe ulla indexx  enth veneelum kodukkaaa yaayaaa */
-    }
+  
 
     const newitem = items.filter((item, i) => i !== index);
     setItems(newitem);
@@ -49,9 +47,7 @@ const App = () => {
                     type="text"
                     value={item}
                     onChange={(e) => {
-                      {
-                        /* value koduthal input il display */
-                      }
+                  
                       const updatedTaskList = [...items];
                       updatedTaskList[index] = e.target.value;
                       setItems(updatedTaskList);
